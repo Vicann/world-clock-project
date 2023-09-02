@@ -7,12 +7,26 @@
     <link rel="stylesheet" type="text/css" href="src/styles.css" />
   </head>
   <body>
-    <h1>World Clock</h1>
-      <footer>
-        Open source code by
-        <a href="https://github.com/Vicann/world-clock-project" target="_blank"
-          >Victoria Okoro</a > and is hosted on <a href = "" target = "_blank" >Netlify</a
-      </footer>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select>
+        <option value="">Select a city...</option>
+        <option value="">Boston</option>
+        <option value="">New York</option>
+        <option value="">Paris</option>
+      </select>
+
+      <div class="city">
+        <h2>Los Angeles 🇺🇸</h2>
+        <div class="date">September 2nd 2023</div>
+        <div class="time">1:48:15 AM</div>
+      </div>
+      <div class="city">
+        <h2>Tokyo 🇯🇵</h2>
+        <div class="date">September 2nd 2023</div>
+        <div class="time">1:48:15 AM</div>
+      </div>
+    </div>
   </body>
   <script src="src/app.js"></script>
 </html>
