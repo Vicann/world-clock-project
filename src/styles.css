@@ -1,5 +1,10 @@
 body {
-  background-color: #fadadd;
+  background: rgb(246, 186, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 186, 184, 1) 29%,
+    rgba(192, 230, 223, 1) 66%
+  );
 }
 
 .container {
@@ -9,8 +14,8 @@ body {
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-  background-image: url(/pink-brick.jpg);
-  background-size: 600px;
+  background-image: url(/half-color.jpg);
+  background-size: 660px;
 }
 
 h1 {
@@ -45,7 +50,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  border-bottom: 1px dashed grey;
+  border-bottom: 1px dotted black;
 }
 
 .city:last-child {
@@ -64,5 +69,6 @@ footer {
 }
 
 .date {
-  opacity: 0.7;
+  font-weight: bold;
+  font-size: 20px;
 }
