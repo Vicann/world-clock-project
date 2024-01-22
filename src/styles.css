@@ -50,7 +50,6 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  border-bottom: 1px dotted black;
 }
 
 .city:last-child {
